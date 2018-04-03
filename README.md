@@ -28,7 +28,13 @@ Include the stylesheet:
   ```
 #### Less
   ```less
-  @import "<PATH_TO_SOURCE>/src/vue2-animate.less";
+  @import "<PATH_TO_SOURCE>/src/less/vue2-animate.less";
+  ```
+
+#### Sass/Scss
+  ```scss
+  $animationDuration: 0.5s; // specify animation duration. Default value: 1s
+  @import "<PATH_TO_SOURCE>/src/sass/vue2-animate.scss";
   ```
 
 #### Building
@@ -36,8 +42,9 @@ Include the stylesheet:
   git clone https://github.com/asika32764/vue2-animate.git
   cd vue2-animate
   npm install
-  npm run build #Compiled .css files go to the dist folder
+  npm run build #Compiled .css files go to the dist folder.
   ```
+You are able to build sass version with command `npm run build-sass`.
 
 ## Usage
 

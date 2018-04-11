@@ -8,3 +8,7 @@ config
 dist/*.map
 lib
 test
+docs
+README.md
+LICENSE
+fusionfile.js

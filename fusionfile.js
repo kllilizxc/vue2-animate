@@ -15,6 +15,7 @@ fusion.task('sass', function () {
 
   // Compile Start
   fusion.sass('src/sass/**/vue2-animate.scss', 'dist/vue2-animate.css');
+  fusion.copy('dist/*', 'docs/dist/');
   // Compile end
 });
 

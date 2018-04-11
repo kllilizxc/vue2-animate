@@ -1,7 +1,7 @@
 {
   "name": "vue2-animate",
   "version": "2.0.0",
-  "description": "LESS cross-browser animation library, for use with Vue.js 2.0. Ported from Animate.css.",
+  "description": "SCSS/CSS cross-browser animation library, for use with Vue.js 2.0. Ported from Animate.css.",
   "author": {
     "name": "Simon Asika",
     "email": "asika32764@gmail.com"

@@ -9,6 +9,8 @@ A [Vue.js](http://vuejs.org/ "Vue.js") port of [Animate.css](https://github.com/
 
 **This is modified version of: https://github.com/haydenbbickerton/vue-animate for Vue 2.0**
 
+**Thanks [@pavels-hyuna](https://github.com/pavels-hyuna) for his SCSS version work.**
+
 ## Installation
 #### HTML
 Include the stylesheet:
@@ -26,25 +28,31 @@ Include the stylesheet:
   ```js
   require('vue2-animate/dist/vue2-animate.min.css')
   ```
-#### Less
-  ```less
-  @import "<PATH_TO_SOURCE>/src/less/vue2-animate.less";
-  ```
 
 #### Sass/Scss
-  ```scss
-  $animationDuration: 0.5s; // specify animation duration. Default value: 1s
-  @import "<PATH_TO_SOURCE>/src/sass/vue2-animate.scss";
-  ```
+  
+```scss
+$animationDuration: 0.5s; // specify animation duration. Default value: 1s
+@import "<PATH_TO_SOURCE>/src/sass/vue2-animate.scss";
+```
+
+#### Less
+```less
+@import "<PATH_TO_SOURCE>/src/less/vue2-animate.less";
+```
+
+> **NOTE** LESS version is deprecated and no-longer maintained. Use SCSS version for your new project.
 
 #### Building
-  ```shell
-  git clone https://github.com/asika32764/vue2-animate.git
-  cd vue2-animate
-  npm install
-  npm run build #Compiled .css files go to the dist folder.
-  ```
-You are able to build sass version with command `npm run build-sass`.
+
+```shell
+git clone https://github.com/asika32764/vue2-animate.git
+cd vue2-animate
+npm install
+npm run build #Compiled .css files go to the dist folder.
+```
+
+You are able to build LESS version with command `npm run build:less`.
 
 ## Usage
 
